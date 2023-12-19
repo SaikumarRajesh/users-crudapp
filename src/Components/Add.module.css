@@ -1,0 +1,37 @@
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width: fit-content;
+    align-items: center;
+  }
+
+  form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .inputcontainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    min-width: 120px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  button{
+    width: 100px;
+  }

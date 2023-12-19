@@ -1,0 +1,31 @@
+
+
+  .table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width :100%px;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 5px solid ;
+  }
+  
+  .table th {
+    background-color: beige;
+  }
+  
+  .deleteButton {
+    color: black;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  .thumbnail {
+    height: 40px; 
+  }
+  

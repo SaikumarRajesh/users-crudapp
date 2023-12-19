@@ -1,0 +1,41 @@
+.container {
+  border-radius: 12px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border:2px solid;
+  background-color: beige;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  width:fit-content;
+  justify-content: center;
+}
+
+  .card{
+    margin: 30px;
+    border:2px solid;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .image{
+    height:250px;
+    width: 200px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+
+  .details{
+    padding: 4px;
+    margin: 5px;
+    color: black;
+  }
+
+  .deleteicon {
+    color: black;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .inputcontainer{
+    margin-top: 20px;
+  }

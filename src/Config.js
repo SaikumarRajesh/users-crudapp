@@ -1,0 +1,1 @@
+ export const Userurl = "https://64c0aee70d8e251fd11257a2.mockapi.io";
