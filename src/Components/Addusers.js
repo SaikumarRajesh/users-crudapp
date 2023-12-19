@@ -24,7 +24,7 @@ const Addusers = () =>
         })
     }
   
-    const handleSubmit = (event) => {
+    const handleSubmit =  (event) => {
       event.preventDefault();
       createuser(formdata)
       setdata(initialstate)
