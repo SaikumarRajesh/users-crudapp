@@ -1,7 +1,6 @@
 
 import React, { useEffect, useState } from "react";
 import { getuser ,deleteuser} from "../usercrud";
-// import { Link } from "react-router-dom";
 import styles from "./user.module.css"
 
 const Users = () => {
