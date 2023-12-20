@@ -61,7 +61,7 @@ const Sidebar = () => {
      <div className={styles.header}>
         <h1>Crud Page</h1>
       </div>
-      <div style={{width: isOpen ? "200px" : "55px"}} className={styles.sidebar}>
+      <div style={{width: isOpen ? "200px" : "50px"}} className={styles.sidebar}>
          
       <div className={styles.topsection}>
         <h1  style={{display: isOpen ? "block" : "none"}} className={styles.logo}>CRUD</h1>
@@ -74,7 +74,7 @@ const Sidebar = () => {
             to={item.path}
             key={index}
             className={styles.link}
-            activeClassName={styles.active}
+            activeclassname={styles.active}
           >
             <div className={styles.icon}>{item.icon}</div>
             <div  style={{display: isOpen ? "block" : "none"}} className={styles.linktext}>{item.name}</div>

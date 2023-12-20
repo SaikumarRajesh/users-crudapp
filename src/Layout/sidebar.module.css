@@ -36,13 +36,13 @@
 .link{
     display: flex;
     color: #fff;
-    padding: 10px 15px;
+    padding: 10px 10px;
     gap: 18px;
     transition: all 0.5s;
+
 }
 .link:hover{
     background:lightskyblue;
-    color: #000;
     transition: all 0.5s;
 }
 .active{
