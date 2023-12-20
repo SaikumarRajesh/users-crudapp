@@ -83,7 +83,7 @@ const Sidebar = () => {
       </div>
       <div
         style={{
-          marginLeft: isOpen ? "200px" : "55px",
+          marginLeft: isOpen ? "200px" : "60px",
           transition: "margin-left 0.5s ease-in-out",
         }}
       >
