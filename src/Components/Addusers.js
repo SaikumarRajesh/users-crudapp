@@ -28,6 +28,7 @@ const Addusers = () =>
       event.preventDefault();
       createuser(formdata)
       setdata(initialstate)
+      alert("User Added successfully")
       navigate('/users');
     };
   

@@ -51,6 +51,7 @@ const Editusers = () =>
       const handleSubmit = async (e) => {
         e.preventDefault();
        await updateuser(userId,formdata)
+       alert("User profile edited successfully")
        navigate('/users');
       };
         
