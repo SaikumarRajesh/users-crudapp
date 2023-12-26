@@ -61,8 +61,7 @@ const Sidebar = () => {
      <div className={styles.header}>
         <h1>Crud Page</h1>
       </div>
-      <div style={{width: isOpen ? "200px" : "50px"}} className={styles.sidebar}>
-         
+      <div style={{width: isOpen ? "200px" : "50px"}} className={styles.sidebar}>      
       <div className={styles.topsection}>
         <h1  style={{display: isOpen ? "block" : "none"}} className={styles.logo}>CRUD</h1>
         <div style={{marginLeft: isOpen ? "50px" : "0px"}} className={styles.bars}>
